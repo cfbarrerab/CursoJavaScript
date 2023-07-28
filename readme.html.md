@@ -1,0 +1,116 @@
+# JavaScript 1
+
+Date Created: 27 de julio de 2023 15:33
+Status: Doing
+
+# Ejecutar JavaScript
+
+Se ejecuta por medio de VSC. Se debe crear un archivo index.html y en las líneas de código, poner <script>. Esto le da a entender al editor que estamos trabajando en Java
+
+![Untitled](img/Untitled.png)
+
+Consola: Es donde se ve el resultado del código JS
+
+Para verlo, abrimo el archivo index.html y se abrirá en Chrome. Ahora se usa Ctrl+shift+j para ver la consola
+
+# Comentarios
+
+Son textos que se incluyen pero que no hacen parte del código como tal. Son usados como guía
+
+Se hacen con dos
+
+//
+
+![Untitled](img/Untitled%201.png)
+
+![Untitled](img/Untitled%202.png)
+
+# Variables
+
+Tipos de datos: Undefined (no existe valor asignado), null (nulo), boolean (booleano), string (cadena de caracteres), symbol, number (numero) & object
+
+Variable: Crea un espacio en el dispositivo y guarda un valor en ese lugar de memoria
+
+![Untitled](img/Untitled%203.png)
+
+# Operador de Asignación
+
+Si se definen variables pero no su valor, en la consola se verá reflejado como valor indefinido
+
+![Untitled](img/Untitled%204.png)
+
+![Untitled](img/Untitled%205.png)
+
+Podemos darle un valor a la variable despues de creada
+
+![Untitled](img/Untitled%206.png)
+
+# Asignar el valor de una variable a otra variable
+
+![Untitled](img/Untitled%207.png)
+
+![Untitled](img/Untitled%208.png)
+
+# Variables no Inicializadas
+
+Son aquellas variables a las que no se les ha asignado un valor
+
+![Untitled](img/Untitled%209.png)
+
+# Mayúsculas y Minúculas
+
+En JS es importante que las variables sean escritas como se declararon, respetando mayúsculas y minúsculas
+
+![Untitled](img/Untitled%2010.png)
+
+# Operaciones Aritméticas
+
+![Untitled](img/Untitled%2011.png)
+
+![Untitled](img/Untitled%2012.png)
+
+![Untitled](img/Untitled%2013.png)
+
+![Untitled](img/Untitled%2014.png)
+
+# Números Decimales
+
+![Untitled](img/Untitled%2015.png)
+
+Aplican la misma manera de las operaciones artiméticas
+
+# Residuo de una división.
+
+Esta operación da el valor del residuo de una división, es decir si divido 17/3 nos da 5,6. Pero el residuo es aquello que no se puede dividir de manera entera es decir que daría 5 y residuo 2. Se hace con%
+
+![Untitled](img/Untitled%2016.png)
+
+# Incrementar el valor de una variable
+
+![Untitled](img/Untitled%2017.png)
+
+![Untitled](img/Untitled%2018.png)
+
+![Untitled](img/Untitled%2019.png)
+
+![Untitled](img/Untitled%2020.png)
+
+# Reducción del valor de una variable
+
+![Untitled](img/Untitled%2021.png)
+
+![Untitled](img/Untitled%2022.png)
+
+# Asignación de Suma
+
+Cuando se desea sumar una variable a un numero, se puede hacer de forma abreviada
+
+![Untitled](img/Untitled%2023.png)
+
+Otro Ejemplo
+
+![Untitled](img/Untitled%2024.png)
+
+# Asignación de Resta
+
+![Untitled](img/Untitled%2025.png)
