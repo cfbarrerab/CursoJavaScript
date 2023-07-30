@@ -114,3 +114,55 @@ Otro Ejemplo
 # Asignación de Resta
 
 ![Untitled](img/Untitled%2025.png)
+
+# Asignación de la Multiplicación
+
+![Untitled](img/Untitled%2026.png)
+
+# Asignación de División
+
+![Untitled](img/Untitled%2027.png)
+
+# Variable con Cadenas de Caracteres
+
+![Untitled](img/Untitled%2028.png)
+
+# Escapar Comillas en Cadenas de Caracteres
+
+Si se desea declarar una variable de caracteres que incluyan comillas, debe hacerse de la siguiente manera \”texto”
+
+![Untitled](img/Untitled%2029.png)
+
+# Escape de Caracteres con Comillas Simples
+
+![Untitled](img/Untitled%2030.png)
+
+![Untitled](img/Untitled%2031.png)
+
+Se puede hacer también intercalando comillas simples y comillas dobles como se muestra en los ejemplo
+
+# Secuencias de Escape
+
+Son combinaciones de caracteres que no se representan a sí mismos como caracteres como tal
+
+![Untitled](img/Untitled%2032.png)
+
+# Concatenar Cadenas de Caracteres
+
+![Untitled](img/Untitled%2033.png)
+
+# Construir Cadenas con Variables
+
+![Untitled](img/Untitled%2034.png)
+
+# Agregar Variables a Cadenas de Caracteres
+
+![Untitled](img/Untitled%2035.png)
+
+# Longitud de una cadena de caracteres
+
+Para conocer la cantidad de caracteres de una variable, al momento de imprimir se agrega .lenght, es decir console.log(variable.length)
+
+![Untitled](img/Untitled%2036.png)
+
+# Notación de Corchetes: Primer Caracter
