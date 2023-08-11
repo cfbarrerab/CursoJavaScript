@@ -166,3 +166,107 @@ Para conocer la cantidad de caracteres de una variable, al momento de imprimir s
 ![Untitled](img/Untitled%2036.png)
 
 # Notación de Corchetes: Primer Caracter
+
+Nos permite acceder a un caracter especial de una cadena
+
+![Untitled](img/Untitled%2037.png)
+
+# Inmutabilidad de Cadena de Caracteres
+
+Una vez definida una cadena de caracteres, no es posible cambiar algún elemento de ella.
+
+![Untitled](img/Untitled%2038.png)
+
+# Notación de Corchetes: Enésimo Caracter
+
+![Untitled](img/Untitled%2039.png)
+
+![Untitled](img/Untitled%2040.png)
+
+# Notación de Corchetes: Último Caracter
+
+![Untitled](img/Untitled%2041.png)
+
+![Untitled](img/Untitled%2042.png)
+
+# Notación de Corchetes: De Derecha a Izquierda
+
+![Untitled](img/Untitled%2043.png)
+
+y Así sucesivamente
+
+# Palabras en Blanco
+
+Vamos a hacer que un texto se imprima en la consola declarando varibales de las palabras 
+
+![Untitled](img/Untitled%2044.png)
+
+# Arreglos (Arrays)
+
+Son estructuras que permiten almacenar múltiples valores  en una misma estructura. Son como vectores.
+
+![Untitled](img/Untitled%2045.png)
+
+# Arreglos Anidados
+
+Se pueden crear arreglos en los que los elementos del mismo, sean arreglos. A esto se le llaman arreglos anidados
+
+![Untitled](img/Untitled%2046.png)
+
+# Identificación de un elemento de un arreglo
+
+Se puede ubicar un elemento de un arreglo mendiante su posición
+
+![Untitled](img/Untitled%2047.png)
+
+# 
+
+# Modificar los datos de un arreglo
+
+Se pueden hacer modificaciones a los datos de un arreglo mediante la declaración de su valor
+
+![Untitled](img/Untitled%2048.png)
+
+# Acceder a Arreglos Multidimensionales
+
+Se hace mediante definicions de subindices
+
+![Untitled](img/Untitled%2049.png)
+
+# .push()
+
+Este método agrega a un arreglo un valor al final de este
+
+![Untitled](img/Untitled%2050.png)
+
+# .pop()
+
+Este método elimina el último  elemento del arreglo, pero adicional nos permite guardarlo en una nueva variable
+
+![Untitled](img/Untitled%2051.png)
+
+# .shift()
+
+Elimina el primer elemento de un arreglo
+
+![Untitled](img/Untitled%2052.png)
+
+# .unshift()
+
+Agrega un elemento al principio de un arreglo. Dentro del paréntesis se define el valor que debe tomar ese elemento que vamos a agregar
+
+![Untitled](img/Untitled%2053.png)
+
+# Lista de Compras
+
+Se pueden imprimier mensajes en la consola usandop las ubicaiones de los arreglos
+
+![Untitled](img/Untitled%2054.png)
+
+# Funciones
+
+Se pueden escribir código que se puede reutilizar
+
+![Untitled](img/Untitled%2055.png)
+
+![Untitled](img/Untitled%2056.png)
