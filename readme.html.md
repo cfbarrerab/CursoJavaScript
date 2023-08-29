@@ -15,7 +15,7 @@ Para verlo, abrimo el archivo index.html y se abrirá en Chrome. Ahora se usa Ct
 
 # Comentarios
 
-Son textos que se incluyen pero que no hacen parte del código como tal. Son usados como guía
+Son textos que se incluyen pero que no hacen parte del código como tal. Son usados como guías
 
 Se hacen con dos
 
