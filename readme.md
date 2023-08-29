@@ -15,7 +15,7 @@ Para verlo, abrimo el archivo index.html y se abrirá en Chrome. Ahora se usa Ct
 
 # Comentarios
 
-Son textos que se incluyen pero que no hacen parte del código como tal. Son usados como guías
+Son textos que se incluyen pero que no hacen parte del código como tal. Son usados como guía
 
 Se hacen con dos
 
@@ -270,3 +270,117 @@ Se pueden escribir código que se puede reutilizar
 ![Untitled](img/Untitled%2055.png)
 
 ![Untitled](img/Untitled%2056.png)
+
+# Argumentos
+
+Las variables de la función se dfinen como parámetros
+
+![Untitled](img/Untitled%2057.png)
+
+para este caso, los parámetros son a y  b
+
+dentro de esa función SUMAR se define que hará esta función
+
+![Untitled](img/Untitled%2058.png)
+
+Para este caso, hará la suma de a+b y muestra en la consola la suma de estos
+
+Ahora, con la función definida, podemos llamarla con los valores que queramos darle a a y b
+
+![Untitled](img/Untitled%2059.png)
+
+Y así se muestra en la consola
+
+![Untitled](img/Untitled%2060.png)
+
+Los argumentos, son los VALORES QUE SE LE ASIGNAN A LOS PARÁMETROS. Es decir, un argumento es un parámetro con valor
+
+Los parámetros también pueden ser definidos mediante variables de la siguiente manera
+
+![Untitled](img/Untitled%2061.png)
+
+# Ámbito Globales
+
+Es una variable que se puede usar en cualquier parte del programa, ya que está definida en el programa principal (no dentro de una función)
+
+# Ámbito Local
+
+Son variables definidas dentro de una función, y solo se pueden usar dentro de esa función
+
+# Diferencias entre Global y Local
+
+Si tengo dos variables con el mismo nombre, una local y otra global estas tienen diferentes jerarquías según en donde se usen. Si se usan dentro de una función, va a tener mayor jerarquía la variablo local. Si se hace fuera de la función, tendrá jerarquía la global (ya que las locales no pueden usarse fuera de la función)
+
+![Untitled](img/Untitled%2062.png)
+
+[https://www.notion.so](https://www.notion.so)
+
+# Retornar un Valor
+
+Tenemos la funcion sumar, dentro de la funcion no siempre es necesario imprimir en la consola el resultado. Podemos calcularlo y guardar el valor sin necesidad de imprimir. Para es usamos la palabra reservada return. Asi queda el valor guardado y posteriormente podemos usarlo bien sea para imprimirlo, o para otros calculos
+
+![Untitled](img/Untitled%2063.png)
+
+![Untitled](img/Untitled%2064.png)
+
+# Undefined
+
+Si se define la función sumar y dentro de la función no retornamos la suma, el valor mostrado deberá ser UNDEFINED. Es decir, siempre debemos retornar el valor
+
+![Untitled](img/Untitled%2065.png)
+
+# Asignar un valor retornado
+
+Se puede asignar una variable al retorno de una función. Se define la función y su variable, dentro de la función se define que es lo que vamos a retoirnar. En este caso es un mensaje. Despues de esto, fuera de la funcion definimos una valiable que será igual a la funcion creada definida en la una variable especifica, ene ste casi “JavaScript”
+
+![Untitled](img/Untitled%2066.png)
+
+![Untitled](img/Untitled%2067.png)
+
+# Permanece en Línea (queue)
+
+En informática, una cola o queue, es una estructura de datos abstracta en la cual los elemntos se mantienen en orden. Los nuevos elementos se pueden añadir al final de la cola y los elementos previos se retiran del principio de la cola
+
+![Untitled](img/Untitled%2068.png)
+
+![Untitled](img/Untitled%2069.png)
+
+# Valores Booleanos
+
+Son valores que pueden tomar valores de verdadero o falso. True or False. Deben escribirse en minuscula siempre (true & false).
+
+# Operador de Igualdad ==
+
+Es un opoerador que compara la igualdad de dos términos. Su resultado será un opoerador booleano-
+
+![Untitled](img/Untitled%2070.png)
+
+![Untitled](img/Untitled%2071.png)
+
+NO DEBERIAN USARSE PARA COMPARAR ARREGLOS
+
+# Operador de Igualdad Estricta ===
+
+Nos permite comparar si los datos son iguales y son del mismo tipo
+
+![Untitled](img/Untitled%2072.png)
+
+# Práctica de como comparar valores
+
+![Untitled](img/Untitled%2073.png)
+
+![Untitled](img/Untitled%2074.png)
+
+# Operadores de Desigualdad ! =
+
+Es un operador que compara la igualdad de dos valores. Su respuesta será true si son distintos y false si son iguales. Es lo opuesto a los operadores de igualdad
+
+![Untitled](img/Untitled%2075.png)
+
+TAMPOCO DEBE USARSE PARA COMPARAR ARREGLOS
+
+# Operador de Desigualdad Estricta ! = =
+
+Funciona igual que el operadod de igual estricta, compara el valor y el tipo de datos. Si son iguales retornará false, si son diferentes retornara true
+
+![Untitled](img/Untitled%2076.png)
