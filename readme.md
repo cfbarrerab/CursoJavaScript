@@ -384,3 +384,95 @@ TAMPOCO DEBE USARSE PARA COMPARAR ARREGLOS
 Funciona igual que el operadod de igual estricta, compara el valor y el tipo de datos. Si son iguales retornará false, si son diferentes retornara true
 
 ![Untitled](img/Untitled%2076.png)
+
+# Operador Mayor Que
+
+Compara el valor absoluto de un valor con respecto a otro. Si se da la condición será true, si no false.
+
+Para cadenas de caracteres, se dará por orden alfabético donde a es el menor valor y z el mayor
+
+![Untitled](img/Untitled%2077.png)
+
+También será usado en variables
+
+![Untitled](img/Untitled%2078.png)
+
+# Operador Mayor o Igual que ≥
+
+Adiciona la condición de mayoría e igualdad
+
+# Operador Menor que < y menor o igual que ≤
+
+Funcionan de manera similar que los dos operadores anteriores
+
+![Untitled](img/Untitled%2079.png)
+
+![Untitled](img/Untitled%2080.png)
+
+# Operador Lógico AND &&
+
+Nos permiten combinar expresiones para elaborar condiciones mas elaboradas
+
+Los operadores lógicos tiene tablas de verdad que determinan sus valores de salida
+
+![Untitled](img/Untitled%2081.png)
+
+![Untitled](img/Untitled%2082.png)
+
+# Operador Lógico OR ||
+
+![Untitled](img/Untitled%2083.png)
+
+![Untitled](img/Untitled%2084.png)
+
+![Untitled](img/Untitled%2085.png)
+
+# Operador Lógico NOT !
+
+![Untitled](img/Untitled%2086.png)
+
+Se usa para negar un valor de salida
+
+![Untitled](img/Untitled%2087.png)
+
+![Untitled](img/Untitled%2088.png)
+
+# Sentencias Condicionales IF
+
+Nos permiten elegir si un bloque de código se ejecuta o no
+
+![Untitled](img/Untitled%2089.png)
+
+![Untitled](img/Untitled%2090.png)
+
+# Cláusula ELSE
+
+![Untitled](img/Untitled%2091.png)
+
+![Untitled](img/Untitled%2092.png)
+
+![Untitled](img/Untitled%2093.png)
+
+# Cláusula ELSE IF
+
+Es para anidar IF y ELSE conjuntamente
+
+![Untitled](img/Untitled%2094.png)
+
+![Untitled](img/Untitled%2095.png)
+
+# Encadenar if….else
+
+Ejercicio Práctico
+
+![Untitled](img/Untitled%2096.png)
+
+# Código de Golf
+
+Ejercicio Práctico
+
+![Untitled](img/Untitled%2097.png)
+
+![Untitled](img/Untitled%2098.png)
+
+![Untitled](img/Untitled%2099.png)
