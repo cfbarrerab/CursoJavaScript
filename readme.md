@@ -476,3 +476,95 @@ Ejercicio Práctico
 ![Untitled](img/Untitled%2098.png)
 
 ![Untitled](img/Untitled%2099.png)
+
+# Sentencias Switch
+
+La declaración o sentencia Switch evalúa una expresión, comparando el valor de esa expresión con una instancia CASE y ejecuta declaraciones asociadas a ese CASE, así como las declaraciones en los CASE que siguen
+
+![Untitled](img/Untitled%20100.png)
+
+![Untitled](img/Untitled%20101.png)
+
+# Switch: Opción predeterminada
+
+Esta opción se ejecutará si ninguno de los valores es el es valor de la variable o de la expresión. Se hace con DEFAULT
+
+![Untitled](img/Untitled%20102.png)
+
+![Untitled](img/Untitled%20103.png)
+
+# Switch: Múltiples Casos
+
+Se puede ejecutar un código especifico para varios valores.
+
+![Untitled](img/Untitled%20104.png)
+
+![Untitled](img/Untitled%20105.png)
+
+# If…Else por Switch
+
+Vamos a hacer un cógiso donde se obtengan los mismos resultados mediante IF-ELSE y con SWITCH
+
+![Untitled](img/Untitled%20106.png)
+
+![Untitled](img/Untitled%20107.png)
+
+Ahora con SWITCH
+
+![Untitled](img/Untitled%20108.png)
+
+![Untitled](img/Untitled%20109.png)
+
+# Retornar Valores Booleanos
+
+Hay maneras mas resumidas de retornar valores booleanos. La manera como hemos visto hasta ahora con condicionales es:
+
+![Untitled](img/Untitled%20110.png)
+
+![Untitled](img/Untitled%20111.png)
+
+Pero podemos retornar el valor directamente de la comparación
+
+![Untitled](img/Untitled%20112.png)
+
+![Untitled](img/Untitled%20113.png)
+
+# Patrón de Retorno Anticipado
+
+Cuando se retorna un valor de una función, esta se detiene inmediatamente.
+
+![Untitled](img/Untitled%20114.png)
+
+Para este caso, la línea 4 no se ejecutará pues está después de la línea 3 que ejectuta un retorno
+
+![Untitled](img/Untitled%20115.png)
+
+Para este caso, si el número es mayor que cero el programa calculará su raíz cuadrada. Si el número es menor que cero, el valor retornado será UNDEFINED. El patrón de retorno anticipado nos sirve para descartar de entrada aquellos valores que no son aplicables a nuestro código, como es el caso de los números negativos para el ejemplo. 
+
+# Proyecto Conteo de Cartas
+
+Descripción: En el juego de casino de BlackJack el jugador puede sacarle ventaja a la casa llevando un registro del número relativo de cartas altas y bajas que quedan en la baraja. A esto le llaman CONTEO DE CARTAS. Tener más cartas altas en la baraja es una ventaja para el jugador. Se le asigna un valor a cada carta de acuerdo a la siguiente tabla. Si el conteo es positivo, el jugador debería apostar alto, si el conteo es negativo o cero, el jugador debería apostar bajo.
+
+![Untitled](img/Untitled%20116.png)
+
+Nuestra meta es desarrollar una función para contar cartas.
+
+La función debe tomar un parámetro CARTA que puede ser un número o una cadena de caracteres y luego aumentar o reducir el valor de la variable global CONTEO de acuerdo al valor de la carta.
+
+La función debe retornar una cadena de caracteres con el conteo actual y las cadenas: "Apostar" (si el conteo es positivo) o "Esperar" si el conteo es cero o negativo.
+
+El conteo actual y la decisión del jugador (Apostar o Esperar) deben estar separados por un espacio
+
+SOLUCIÓN
+
+![Untitled](img/Untitled%20117.png)
+
+![Untitled](img/Untitled%20118.png)
+
+![Untitled](img/Untitled%20119.png)
+
+# Crear Objetos
+
+Nos permiten guardar una secuencia o un conjunto de propiedades que están relacionadas con sus correspondientes valores. Se definene en JS de la siguiente manera
+
+![Untitled](img/Untitled%20120.png)
