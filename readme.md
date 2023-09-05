@@ -568,3 +568,121 @@ SOLUCIÓN
 Nos permiten guardar una secuencia o un conjunto de propiedades que están relacionadas con sus correspondientes valores. Se definene en JS de la siguiente manera
 
 ![Untitled](img/Untitled%20120.png)
+
+# Acceder a Propiedades: Notación de Punto
+
+Para acceder al valor de alguna propiedad de un objeto, se hace mediante la notación de punto. De la siguiente manera
+
+![Untitled](img/Untitled%20121.png)
+
+# Acceder a Propiedades: Notación de corchetes
+
+También se pueden acceder a las distintas propiedades con esta notación que es equivalente
+
+![Untitled](img/Untitled%20122.png)
+
+# Acceder a propiedades: Variables
+
+Podemos definir una variable que sea equivalente a alguna propiedad del objeto. Y posterior, usar la notación de corchetes para llamarlo. Como se muestra a continuación. Esto solo puede hacerse con esta notación, con la notación de punto no es posible
+
+![Untitled](img/Untitled%20123.png)
+
+# Actualizar Propiedades
+
+Definimos un objeto llamada MOCHILA con las propiedades mostradas. La propiedad CONTENIDO tiene más de un elemento, y lo escribimos mediante un arreglo como se muestra a continuación. Una 
+
+![Untitled](img/Untitled%20124.png)
+
+Una vez definida las propiedades, accedemos a la propiedad del color (línea 7) y podemos cambiarla como se muestra en la línea 8. En la línea 9 se muestra que la propiedad ya quedó actualizada.
+
+Para añadir elementos a la propiedad que se defina como un arreglo, para este caso CONTENIDO, usamos el método .PUSH como se muestra a continuación
+
+![Untitled](img/Untitled%20125.png)
+
+O sencillamente definimos nuevamente el contenido de la propiedad con lo que se requeira
+
+![Untitled](img/Untitled%20126.png)
+
+# Agregar Propiedades
+
+Para agregar una propiedad a un objeto, se puede hacer de la siguiente manera con notación de punto y notación de corchetes
+
+![Untitled](img/Untitled%20127.png)
+
+![Untitled](img/Untitled%20128.png)
+
+# Eliminar Propiedades
+
+Para eliminar alguna propiedad podemos hacerlo de la siguiente manera
+
+![Untitled](img/Untitled%20129.png)
+
+# Objetos para Búsquedas
+
+Por medio de OBjetos, podemos simplificar códigos realizados por medio de SWITCH. Un ejemplo claro es el siguiente código
+
+![Untitled](img/Untitled%20130.png)
+
+![Untitled](img/Untitled%20131.png)
+
+![Untitled](img/Untitled%20132.png)
+
+Ahora si lo definimos como un objeto
+
+![Untitled](img/Untitled%20133.png)
+
+![Untitled](img/Untitled%20134.png)
+
+# Verificar Propiedades
+
+Se define un objeto con sus propiedades y se valida si existe con hasOwnProperty(). El retorno será booleano
+
+![Untitled](img/Untitled%20135.png)
+
+![Untitled](img/Untitled%20136.png)
+
+Desarrollemos una función que determine si un objeto tiene una propiedad
+
+![Untitled](img/Untitled%20137.png)
+
+![Untitled](img/Untitled%20138.png)
+
+# Objetos Complejos
+
+Los objetos puede definirse mediante arreglos anidados de manera compleja como se muestra a continuación
+
+![Untitled](img/Untitled%20139.png)
+
+Veamos como podemos acceder a alguna de sus propiedades
+
+![Untitled](img/Untitled%20140.png)
+
+![Untitled](img/Untitled%20141.png)
+
+![Untitled](img/Untitled%20142.png)
+
+![Untitled](img/Untitled%20143.png)
+
+# Objetos Anidados
+
+También se pueden definir Objetos dentro de otros Objetos, de manera similar a a los arreglos anidados. Para acceder a alguna propiedad, podemos usar la notación que se muestra a continuación
+
+![Untitled](img/Untitled%20144.png)
+
+![Untitled](img/Untitled%20145.png)
+
+# Arreglos Anidados
+
+Cuando un objeto esta definido en arreglo, como en el siguiente ejemplo, se debe usar notación de punto para acceder a alguno de sus elementos. Como se muestra a a continuación
+
+![Untitled](img/Untitled%20146.png)
+
+![Untitled](img/Untitled%20147.png)
+
+![Untitled](img/Untitled%20148.png)
+
+# Proyecto: Colección de Discos
+
+Tenemos un objeto que representa parte de una colección de álbumes musicales. Cada álbum tiene un único ID asociado a otras propiedades.
+
+No todos los álbumes tienen la información completa
