@@ -686,3 +686,103 @@ Cuando un objeto esta definido en arreglo, como en el siguiente ejemplo, se debe
 Tenemos un objeto que representa parte de una colección de álbumes musicales. Cada álbum tiene un único ID asociado a otras propiedades.
 
 No todos los álbumes tienen la información completa
+
+![Untitled](img/Untitled%20149.png)
+
+# Ciclo While
+
+Se usan cuando no se tiene un número específico de iteraciones, pero si se conoce lo que tiene que ser cierto para detener el proceso.
+
+Dentro del paréntesis de while, irá la condicion del ciclo
+
+![Untitled](img/Untitled%20150.png)
+
+![Untitled](img/Untitled%20151.png)
+
+Otro ejemplo
+
+![Untitled](img/Untitled%20152.png)
+
+![Untitled](img/Untitled%20153.png)
+
+# Ciclo For
+
+Lo usamos cuando sabemos cuantas iteraciones necesitamos. Dentro del par+entesis del for, ira el valor inicial; la condición final; y como queremos que se actualice la variable
+
+![Untitled](img/Untitled%20154.png)
+
+![Untitled](img/Untitled%20155.png)
+
+# Ciclos For: Números Impares
+
+Vamos a crear un arreglo con los números impares entre 0 y 19, incluyendolo
+
+![Untitled](img/Untitled%20156.png)
+
+![Untitled](img/Untitled%20157.png)
+
+Otro Ejemplo. Hagamos un arreglo que contenga todos los número pares desde 2 hasta 26, incluyendolo
+
+![Untitled](img/Untitled%20158.png)
+
+![Untitled](img/Untitled%20159.png)
+
+# Ciclos For: Contar hacia atrás
+
+Hagamos un contador desde 20 hasta 11 con el ciclo for, de uno en uno
+
+![Untitled](img/Untitled%20160.png)
+
+![Untitled](img/Untitled%20161.png)
+
+El mismo ejemplo con arreglo
+
+![Untitled](img/Untitled%20162.png)
+
+![Untitled](img/Untitled%20163.png)
+
+# Iterar Sobre un Arreglo con ciclo For
+
+Vamos  a crear un programa que sume los elementos de un arreglo
+
+![Untitled](img/Untitled%20164.png)
+
+![Untitled](img/Untitled%20165.png)
+
+Otro Ejemplo con cadenas de caracteres, vamos a convertir las cadenas de caracteres a mayúculas con toUpperCase
+
+![Untitled](img/Untitled%20166.png)
+
+![Untitled](img/Untitled%20167.png)
+
+Otro Ejemplo, hagamos un programa que cuente los números pares de un arreglo
+
+![Untitled](img/Untitled%20168.png)
+
+![Untitled](img/Untitled%20169.png)
+
+# Ciclos For Anidados
+
+Vamos usas ciclos for anidados para mostrar elementos de arreglos anidados
+
+![Untitled](img/Untitled%20170.png)
+
+![Untitled](img/Untitled%20171.png)
+
+# Ciclos Do While
+
+Es un ciclo muy similar a While, la diferencia es que se va a ejecutar mínimo una vez el código así no se cumpla la condición. Eso es útil cuando hay que pedir que un usuario ingrese un valor y así podemos compararlo.
+
+Para este código, x = 5. El ciclo dice que independiente de el valor de x, al  menos una vez se ejecutará la impresión. 
+
+![Untitled](img/Untitled%20172.png)
+
+Como el condicional del ciclo es que x sea menor que 10, y x lo es, se seguirá ejecutando el código. Entonces este imprimirá en consola los número del 5 al 9.
+
+![Untitled](img/Untitled%20173.png)
+
+Ahora si x =15, no cumple con el condicional. Sin embargo imprimirá una vez el valor de x por que así es la naturaleza del ciclo
+
+![Untitled](img/Untitled%20174.png)
+
+![Untitled](img/Untitled%20175.png)
