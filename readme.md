@@ -786,3 +786,101 @@ Ahora si x =15, no cumple con el condicional. Sin embargo imprimirá una vez el 
 ![Untitled](img/Untitled%20174.png)
 
 ![Untitled](img/Untitled%20175.png)
+
+# Proyecto: Buscar Contactos
+
+Vamos a hacer un proyecto con todo lo aprendido que nos permita buscar un contacto en una lista de contacto
+
+![Untitled](img/Untitled%20176.png)
+
+![Untitled](img/Untitled%20177.png)
+
+![Untitled](img/Untitled%20178.png)
+
+# Números aleatorio entre 0 y 1
+
+Para poder generar números aleatorios entre [0 y 1), podemos usar la siguiente función matemática
+
+![Untitled](img/Untitled%20179.png)
+
+![Untitled](img/Untitled%20180.png)
+
+![Untitled](img/Untitled%20181.png)
+
+![Untitled](img/Untitled%20182.png)
+
+# Números Aleatorios Enteros
+
+Vamos a combinar dos métodos establecidos en JS
+
+Usaremos la función floor que retorna el valor entero menor o igual de un número. A este lo vamos a multiplicar por la función random y así obtendremos número enteros aleatorios entre un rango
+
+![Untitled](img/Untitled%20183.png)
+
+![Untitled](img/Untitled%20184.png)
+
+![Untitled](img/Untitled%20185.png)
+
+![Untitled](img/Untitled%20186.png)
+
+Y así podemos crear una función predeterminada que podremos usar posteriormente luego
+
+![Untitled](img/Untitled%20187.png)
+
+Ahora, si queremos generar un número definido de números aleatorios, podemos hacerlo mediante un ciclo de la siguiente manera
+
+![Untitled](img/Untitled%20188.png)
+
+![Untitled](img/Untitled%20189.png)
+
+![Untitled](img/Untitled%20190.png)
+
+# Números Aleatorios en un Rango
+
+Si ahora queremos que el rango no empiece siempre desde cero, podemos establecer una operación matemática con la función declarada anteriormente
+
+![Untitled](img/Untitled%20191.png)
+
+![Untitled](img/Untitled%20192.png)
+
+![Untitled](img/Untitled%20193.png)
+
+# Función praseInt()
+
+Esta función convierte una cadena de caracteres a un entero.  Para el caso de decimales, elimina la parte decimal. 
+
+![Untitled](img/Untitled%20194.png)
+
+A continuación veremos un ejemplo de su aplicación
+
+![Untitled](img/Untitled%20195.png)
+
+# Función parseInt() con una Base
+
+Esta función también nos permite pasar un número determinado a un sistema numérico en otra base. En este ejmpo, vamos a poner el número 110111 y definimos que está en base 2. El retorno será su equivalencia en base 10
+
+![Untitled](img/Untitled%20196.png)
+
+Ahora otro ejemplo en sistema hexadecimal
+
+![Untitled](img/Untitled%20197.png)
+
+# Operador Condicional Ternario
+
+Este operador nos permite compactar un condicional en una sola línea
+
+Para mostrarlo vamos a comparar un condicional sencillo 
+
+![Untitled](img/Untitled%20198.png)
+
+Esto es equivalente a 
+
+![Untitled](img/Untitled%20199.png)
+
+Esto lo podemos interpretar así: evalue si x < y. Si esta condicion es verdadera retorne x, si no retorne y
+
+También podemos usarlo para operar matemáticamente así
+
+![Untitled](img/Untitled%20200.png)
+
+# Múltiples operadores condicionales
