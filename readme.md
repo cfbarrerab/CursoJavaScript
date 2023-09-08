@@ -884,3 +884,83 @@ También podemos usarlo para operar matemáticamente así
 ![Untitled](img/Untitled%20200.png)
 
 # Múltiples operadores condicionales
+
+Vamos a hacer una función que contenga varios condicionales y vamos a hacerlo con condicionales ternarios para comparar.
+
+![Untitled](img/Untitled%20201.png)
+
+![Untitled](img/Untitled%20202.png)
+
+# var vs let
+
+Cuando se declara una variable con var, se puede hacer dos o más veces. 
+
+Cuando se usa con let, no es posible declararla más de una vez
+
+![Untitled](img/Untitled%20203.png)
+
+![Untitled](img/Untitled%20204.png)
+
+# Ámbito de var vs. let
+
+Cuando se usa var, la varible puede ser global o local. Let es más estricto en eso, por ejemplo en un ciclo se declara la variable. Si se hace con var esta puede usarse fuera del ciclo, si se hace con let esta se restringe únicamente al ciclo
+
+# const
+
+Son variasbles que una vez que se encuentran definidas, no puede modificarse. Son variable de solo lectura. Un ejemplo claro son las constantes matemáticas
+
+![Untitled](img/Untitled%20205.png)
+
+# Mutar arreglo declarado con const
+
+Si declaramos un arreglo con const, este no podrá definirse nuevamente. Sin embargo, podemos modificar sus elementos
+
+![Untitled](img/Untitled%20206.png)
+
+# Crear un objeto Inmutable
+
+Si queremos definir un objeto que posteriormente no pueda ser editado, lo podemos volver inmujtable con Object.freeze de la siguiente manera
+
+![Untitled](img/Untitled%20207.png)
+
+# Funciones Flecha
+
+Son un tipo de funciones más compactas. Se utilizan cuando queremos definir funciones anónimas, es decir sin un nombre específico. En este caso vamos a definir una constante que se llama fecha y será dada por una función que retorne la fecha actual. Así sería su equivalente en función flecha
+
+![Untitled](img/Untitled%20208.png)
+
+![Untitled](img/Untitled%20209.png)
+
+# Función Flecha con Parámetros
+
+Veamos un símil entre una función anónima y una función flecha definida con parámetros
+
+![Untitled](img/Untitled%20210.png)
+
+![Untitled](img/Untitled%20211.png)
+
+Hagamos un ejemplo. Desarrolllemos una función que se llame concatenarArreglo y que concatene dos arreglos. Lo haremos con el tipo de función anónima y el tipo de función flecha
+
+![Untitled](img/Untitled%20212.png)
+
+y así sería su equivalencia en función flecha
+
+![Untitled](img/Untitled%20213.png)
+
+En el dado caso que la función tenga más de una una línea, deberá estar envuelta entre llaves
+
+![Untitled](img/Untitled%20214.png)
+
+# Valores por Defecto para Parámetros
+
+Se pueden asignar por defecto valores a los parámetros de una función flecha.  De esta manera, si el usuario omite el parámetro, se tomará ese valor por 
+
+![Untitled](img/Untitled%20215.png)
+
+# Operador rest
+
+Este operador permite pasar cualquier número de argumentos a una función, y que estos argumentos se agrupen como un arreglo. Para ello, definimos una función, y en donde definimos los parámentro, escribimos puntos suspensivos y un parámetro. Esto nos permite definir que la función no tenga un único parámetro.
+
+![Untitled](img/Untitled%20216.png)
+
+![Untitled](img/Untitled%20217.png)
