@@ -1,7 +1,7 @@
 # JavaScript 1
 
 Date Created: 27 de julio de 2023 15:33
-Status: Doing
+Status: Done 🙌
 
 # Ejecutar JavaScript
 
@@ -964,3 +964,146 @@ Este operador permite pasar cualquier número de argumentos a una función, y qu
 ![Untitled](img/Untitled%20216.png)
 
 ![Untitled](img/Untitled%20217.png)
+
+# Operador Spread
+
+Hace lo contrario al operador rest. Toma un arreglo y lo descompone
+
+Tenemos una contante definida como un arreglo y una frunción de suma.
+
+Para llamar a la función con parámetros a los elemntos de arreglo, deberíamos llamar unbdividualmente cada uno de los elelentos del arreglo. Con la función Spread (…numeros) se descompone cada uno de los elementos del arreglo y lo mete en la función
+
+![Untitled](img/Untitled%20218.png)
+
+# Sintaxis de Desestructuración
+
+Nos permite asignar las propiedades de un objeto a variables
+
+![Untitled](img/Untitled%20219.png)
+
+![Untitled](img/Untitled%20220.png)
+
+# Sintaxis de Desestructuración: Objetos Anidados
+
+![Untitled](img/Untitled%20221.png)
+
+Otro ejemplo
+
+![Untitled](img/Untitled%20222.png)
+
+![Untitled](img/Untitled%20223.png)
+
+![Untitled](img/Untitled%20224.png)
+
+# Sintaxis de Desestructuración: Arreglos
+
+Nos permite asignar valores a variables, usando arreglos
+
+Si tenemos un arreglo definido, no es necesario que todos sus elementos esten asignados a una variable, de esta manera
+
+![Untitled](img/Untitled%20225.png)
+
+![Untitled](img/Untitled%20226.png)
+
+Tambien puede usarse para intercambiar el valor de dos variables
+
+![Untitled](img/Untitled%20227.png)
+
+# Sintaxis de Desestructuración con el operador rest
+
+Vamos a usar este operador para reasignar una arreglo en varias varibales. Vamos a declarar dos variables a y b, y las vamos a definir en un arreglo con 7 elementos. Solo a y b están definidas. Usando rest, vamos a definir el resto
+
+![Untitled](img/Untitled%20228.png)
+
+Hgamos un ejercicios para eliminar los tres primeros elementos de un arreglo usando este principio
+
+![Untitled](img/Untitled%20229.png)
+
+![Untitled](img/Untitled%20230.png)
+
+# Sintaxis de Desestructuración: Pasar Objeto como Argumento
+
+![Untitled](img/Untitled%20231.png)
+
+![Untitled](img/Untitled%20232.png)
+
+Otro ejemplo
+
+![Untitled](img/Untitled%20233.png)
+
+![Untitled](img/Untitled%20234.png)
+
+# Plantillas Literales
+
+Tambien llamadas Plantillas de Cadena. 
+
+Características:
+
+- Se usa el acento invertido (backtict) ` en lugar de comillas
+- Pueden contener comillas simples y dobles
+- Las líneas se preservan como se escriben en el código
+- Para reemplazar una variable se escrobe ${variable}
+- Dentro de ${} también se pueden escribir expresiones
+
+![Untitled](img/Untitled%20235.png)
+
+otro ejemplo con arreglos
+
+![Untitled](img/Untitled%20236.png)
+
+Otro ejemplo con objetos
+
+![Untitled](img/Untitled%20237.png)
+
+![Untitled](img/Untitled%20238.png)
+
+![Untitled](img/Untitled%20239.png)
+
+# Crear Objetos de Forma Consisa
+
+Veamos una manera de crear objetos de manera consisa
+
+![Untitled](img/Untitled%20240.png)
+
+y así lo hacemos de forma mas resumida
+
+![Untitled](img/Untitled%20241.png)
+
+# Métodos
+
+Dentro de un objeto, se pueden definir funciones. Así
+
+el termino es el equivalente al objeto donde se esta trabajando
+
+![Untitled](img/Untitled%20242.png)
+
+Para abreviar, podemos quitar la palabra function y los :
+
+![Untitled](img/Untitled%20243.png)
+
+# Definir una Clase
+
+Es un plano general que podemos escribir una sola vez y podemos reutilizarlo para crear tantos objetos como necesitemos. Hay una convención para crear clases y es que la primera letra de la clase debe ser mayúcula, a diferencia de las variables
+
+![Untitled](img/Untitled%20244.png)
+
+Hagamos un ejemplo diferente
+
+![Untitled](img/Untitled%20245.png)
+
+![Untitled](img/Untitled%20246.png)
+
+# Getters y Setters
+
+Son funciones de un objeto que permiten proteger la data de este
+
+- Getter: Es una función específica que nos permiten obtener un valor de una propiedade de una propiedad privada
+- Setter: Es una función específica que nos permite actualizar un valor de una propiedad
+
+Para este ejemplo vamos a crear una clase que se llame Libro, allí vamos a llamar la función constructor que nos va a crear una propiedad autor con ese mismo nombre. Por convención, podemos poner _autor para que se sepa que esta propiedad no debe modificarse (propiedad privada).
+
+![Untitled](img/Untitled%20247.png)
+
+![Untitled](img/Untitled%20248.png)
+
+Si no se define el getter, no se va a poder acceder a la propiedad ya que esta es propiedad privada al colocarle _ antes del nombre
